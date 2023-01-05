@@ -61,7 +61,7 @@ header {
 
 /* donate today section style  */
 main {
-  margin: 100px 300px;
+  margin: 0 250px;
 }
 .donate-section {
   display: flex;
@@ -70,8 +70,10 @@ main {
   align-items: center;
 }
 .section-title {
+  margin-top: 100px;
   margin-bottom: 30px;
   font-size: 35px;
+  text-align: center;
 }
 .section-description {
   text-align: center;
@@ -101,4 +103,32 @@ main {
   margin-bottom: 20px;
 }
 
+/* our donate plan style  */
+.donate-plan-items {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
 
+.donate-plan-item1 {
+  background-color: rgba(79, 157, 166, 0.1);
+  padding: 50px 30px;
+  border-radius: 10px;
+}
+.donate-plan-item2 {
+  background-color: rgba(255, 89, 89, 0.1);
+  padding: 50px 30px;
+  border-radius: 10px;
+}
+.donate-plan-item3 {
+  background-color: rgba(145, 205, 49, 0.1);
+  padding: 50px 30px;
+  border-radius: 10px;
+}
+.item-title {
+  margin-top: 10px;
+}
+.item-description {
+  color: #707070;
+  margin-top: 10px;
+}
