@@ -12,55 +12,38 @@
   border-radius: 5px;
   font-size: 17px;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .pl {
   padding-left: 50px;
 }
+hr {
+  padding: 0 300px;
+}
 /* header section style  */
 header {
-  /* background-image: url(/images/donation4.jpg); */
-  /* background-repeat: no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url(/images/donation4.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .hero-section {
-  background-image: url(/images/donation4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 100vh;
+  /* background-image: url(/images/donation4.jpg); */
 }
-/* .hero-section::before {
-  content: "";
-  background-image: url(/images/donation4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  opacity: 0.5;
-  inset: 0;
-  z-index: -1;
-} */
+
 .hero-title {
   color: white;
   font-size: 50px;
 }
 .hero-description {
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 /* donate today section style  */
@@ -140,10 +123,11 @@ main {
 /* contribute section style  */
 .contribute-container {
   display: flex;
-  margin-top: 150px;
+  margin-top: 40px;
 }
 .contribute-info {
   width: 50%;
+  padding-top: 30px;
 }
 .contribute-info h1 {
   margin-top: 30px;
@@ -168,7 +152,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 100px 150px;
-  margin-top: 40px;
+  margin: 50px 0 100px 0;
 }
 #update-input {
   padding: 17px;
