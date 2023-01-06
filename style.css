@@ -3,6 +3,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+
 .primary-btn {
   border: 0;
   background-color: #ff5959;
@@ -11,8 +12,11 @@
   border-radius: 5px;
   font-size: 17px;
   font-weight: 600;
+  margin-top: 20px;
 }
-
+.pl {
+  padding-left: 50px;
+}
 /* header section style  */
 header {
   /* background-image: url(/images/donation4.jpg); */
@@ -131,4 +135,68 @@ main {
 .item-description {
   color: #707070;
   margin-top: 10px;
+}
+
+/* contribute section style  */
+.contribute-container {
+  display: flex;
+  margin-top: 150px;
+}
+.contribute-info {
+  width: 50%;
+}
+.contribute-info h1 {
+  margin-top: 30px;
+  font-size: 35px;
+}
+.contribute-info P {
+  margin-top: 15px;
+}
+.contribute-img {
+  width: 50%;
+  padding: 70px 0;
+}
+.contribute-img img {
+  width: 100%;
+}
+
+/* update section style  */
+.update-form {
+  display: flex;
+  text-align: center;
+  background-color: #fff4d6;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 150px;
+  margin-top: 40px;
+}
+#update-input {
+  padding: 17px;
+  border: 0;
+  margin: 0;
+}
+.update-btn {
+  border: 0;
+  background-color: #ff5959;
+  color: white;
+  padding: 12px 10px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* footer section style  */
+footer {
+  background-color: #0b0d17;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-title {
+  color: #ff5959;
+  font-family: "Lobster", cursive;
+}
+.footer-description {
+  color: #d9dbe1;
+  margin-top: 30px;
 }
